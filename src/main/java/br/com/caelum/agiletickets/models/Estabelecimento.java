@@ -54,4 +54,13 @@ public class Estabelecimento {
 		return temEstacionamento != null && temEstacionamento;
 	}
 
+	public Boolean getTemEstacionamento() {
+		return temEstacionamento;
+	}
+
+	public void setTemEstacionamento(Boolean temEstacionamento) {
+		this.temEstacionamento = temEstacionamento;
+	}
+	
+	
 }
